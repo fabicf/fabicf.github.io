@@ -1,0 +1,189 @@
+:root {
+  --first-light-color: #f9faf8;
+  --second-light-color: #a39d9f;
+  --dark-color: #4a3331;
+  --one-colorful: #cad25b;
+  --two-colorful: #f25d73;
+}
+
+body {
+  /* background-color: brown; */
+}
+
+h2 {
+  color: var(--two-colorful);
+}
+
+/* ======= navbar ========== */
+.navbar {
+  background-color: var(--first-light-color) !important;
+  border-bottom: 1px solid var(--dark-color) !important;
+}
+.nav-link:hover {
+  color: var(--two-colorful) !important;
+}
+
+/* ================== home ================ */
+.home-ctn {
+  /* border: 1px solid green; */
+  background-color: var(--dark-color);
+}
+
+.home-name {
+  /* border: 1px solid orange; */
+  /* padding: 10rem; */
+}
+
+.home-name > h1,
+.home-name > h4 {
+  color: var(--first-light-color);
+}
+
+.home-small-img {
+  /* border: 1px solid blue; */
+}
+.home-small-img > img {
+  background-color: var(--first-light-color);
+  border: 1px solid var(--first-light-color);
+  border-radius: 50%;
+}
+
+/* .home-name > div > button {
+  background-color: var(--dark-color);
+  color: var(--first-light-color);
+  border: 1px solid var(--first-light-color);
+} */
+
+.btn-download-cv {
+  background-color: var(--dark-color);
+  color: var(--one-colorful);
+  border: 1px solid var(--one-colorful);
+}
+
+.btn-download-cv:hover {
+  background-color: var(--two-colorful);
+  border: 1px solid var(--first-light-color);
+}
+
+.home-picture {
+  /* border: 1px solid red; */
+}
+
+.home-picture > img {
+  /* border: 1px solid green; */
+  /* height: auto; */
+}
+
+/* ============= about ================*/
+
+.about-ctn {
+  /* border: 1px solid blue; */
+  background-color: var(--first-light-color);
+  color: var(--dark-color);
+  text-transform: capitalize;
+}
+
+.about-skills-row {
+  /* border: 1px solid red; */
+  justify-content: center;
+}
+.about-skills-square {
+  /* border: 1px solid purple; */
+  padding: 1rem;
+  justify-content: center;
+  text-align: -webkit-center;
+}
+.about-skills-circle {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid var(--one-colorful);
+  /* background-color: blue; */
+  padding: 1rem;
+  border-radius: 5rem;
+}
+
+.about-skills-circle:hover {
+  border: 2px solid var(--one-colorful);
+  background-color: var(--one-colorful);
+  border: 1px solid var(--dark-color);
+}
+
+/* ========Education and Exp =============== */
+.education-ctn {
+  border: 1px solid pink;
+  background-color: var(--dark-color);
+  color: var(--first-light-color);
+}
+
+.education-board {
+  /* border: 1px solid red; */
+}
+
+.education-board-inside {
+  border: 1px solid var(--one-colorful);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.education-icon {
+  color: var(--one-colorful);
+}
+/* ====== Portfolio ============= */
+
+.portfolio-ctn {
+  /* border: 1px solid green; */
+  background-color: var(--first-light-color);
+}
+
+.portfolio-img-box {
+  /* border: 1px solid red; */
+}
+
+.portfolio-img-box > img {
+  /* border: 1px solid red; */
+  border: 1px solid var(--two-colorful);
+  border-radius: 2rem;
+}
+
+.portfolio-img-box > img:hover {
+  /* border: 1px solid var(--second-light-color); */
+  opacity: 0.8;
+}
+
+.btn-portfolio {
+  background-color: var(--first-light-color);
+  color: var(--dark-color);
+  border: 1px solid var(--dark-color);
+}
+
+.btn-portfolio:hover {
+  background-color: var(--one-colorful);
+  border: 1px solid var(--dark-color);
+  color: var(--dark-color);
+  /* box-shadow: none !important; */
+}
+
+.btn:focus,
+.btn:active {
+  box-shadow: none !important;
+  outline: 0;
+}
+
+/* ======== Footer=========== */
+.contact-ctn {
+  background-color: var(--dark-color);
+  color: var(--first-light-color);
+}
+
+.contact-icon:hover {
+  color: var(--one-colorful);
+}
+.contact-icon {
+  color: var(--first-light-color);
+}
+
+footer {
+  background-color: var(--dark-color);
+  color: var(--first-light-color);
+  border-top: 1px solid var(--first-light-color);
+}
